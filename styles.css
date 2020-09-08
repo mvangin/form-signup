@@ -13,7 +13,7 @@ nav{
     align-items: center;
 }
 
-.signInNote {
+.signin-note {
     margin: 5px;
 }
 
@@ -90,7 +90,7 @@ header ul li {
 }
 
 
-.formLinks {
+.form-links {
     color: #4C4C4C;
     text-decoration: none;
 }
@@ -115,7 +115,7 @@ form fieldset input {
     padding: 5px 5px;
 }
 
-.inputSubtext{
+.input-subtext{
     display: block;
     width: 90%;
     margin: 5px auto;
@@ -124,7 +124,7 @@ form fieldset input {
 }
 
 
-.formSubmitButton {
+.form-submit {
     background: #0077C5;
     border: none;
     border-radius: 5px;
@@ -135,7 +135,7 @@ form fieldset input {
     font-size: 1.1rem;
 }
 
-.formTerms {
+.form-terms {
     padding:10px;
     margin: 10px;
     font-size: .9rem;
@@ -143,7 +143,7 @@ form fieldset input {
 }
 
 
-.formFooter {
+.form-footer {
     border-bottom: 1px solid rgb(182, 181, 181);
     border-right: 1px solid rgb(182, 181, 181);
     border-left: 1px solid rgb(182, 181, 181);
@@ -155,7 +155,7 @@ form fieldset input {
 
 }
 
-.pageFooter {
+.page-footer {
     padding: 30px;
     text-align: center;
     width: 600px;
@@ -164,17 +164,17 @@ form fieldset input {
     font-size: .8rem;
 }
 
-.footerLinksContainer {
+.footer-link-cont {
     margin: 0px 0px 5px 0px;
 }
 
-.footerLinks {
+.footer-link {
     color: #4d4c4c;
     text-decoration: none;
     padding: 0px 10px;
 }
 
-.privacySet{
+.privacy-set{
     background: grey;
     color: white;
     padding: 12px;
