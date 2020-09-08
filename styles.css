@@ -1,0 +1,188 @@
+html {
+    background: rgb(231, 230, 230);
+    color: #4C4C4C;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+}
+nav{
+    font-size: .8rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+}
+
+.signInNote {
+    margin: 5px;
+}
+
+
+nav button {
+    padding: 8px 20px;
+    background: #0077C5;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.fa-lock {
+    margin-right: 4px;
+}
+
+.fa-tint {
+    color: rgb(4, 181, 212);
+    margin-right: 3px;
+
+}
+
+.fa-book-open{
+    color: green;
+    margin-right: 3px;
+}
+
+.fa-check-square{
+    color: red;
+    margin-right: 3px;
+}
+
+form {
+    width: 350px;     
+    padding: 10px;
+    margin: -20px auto 10px auto;
+    background: white;
+    text-align: center;
+    border-top: 1px solid rgb(182, 181, 181);
+    border-right: 1px solid rgb(182, 181, 181);
+    border-left: 1px solid rgb(182, 181, 181);
+
+}
+header {
+    height: 100px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+header h1 {
+    color: #757579;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin:5px;
+}
+
+
+header ul {
+    padding: 0px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    padding: 0px 5px;
+    font-size: 1.5rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #0077C5
+}
+
+
+.formLinks {
+    color: #4C4C4C;
+    text-decoration: none;
+}
+
+form fieldset{
+    text-align: center;
+    border: none;
+    padding: 10px;
+}
+
+form fieldset label {
+    display: block;
+    width: 290px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+
+form fieldset input {
+    border: 1px solid rgb(182, 181, 181);
+    width: 280px;
+    padding: 5px 5px;
+}
+
+.inputSubtext{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    text-align: left;
+    font-size: .8rem;
+}
+
+
+.formSubmitButton {
+    background: #0077C5;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.formTerms {
+    padding:10px;
+    margin: 10px;
+    font-size: .9rem;
+    line-height: 20px;
+}
+
+
+.formFooter {
+    border-bottom: 1px solid rgb(182, 181, 181);
+    border-right: 1px solid rgb(182, 181, 181);
+    border-left: 1px solid rgb(182, 181, 181);
+    padding:15px 10px;
+    width: 350px;
+    margin: -10px auto;
+    text-align: center;
+    font-size: .6rem;
+
+}
+
+.pageFooter {
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.footerLinksContainer {
+    margin: 0px 0px 5px 0px;
+}
+
+.footerLinks {
+    color: #4d4c4c;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.privacySet{
+    background: grey;
+    color: white;
+    padding: 12px;
+    position: fixed;
+    bottom: 0px;
+    right: 70px;
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 5px;
+
+}
+
