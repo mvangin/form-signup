@@ -1,12 +1,17 @@
+/* {
+    border: 1px solid red !important;
+ }
+*/
+
 html {
     background: rgb(231, 230, 230);
     color: #4C4C4C;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-
 }
+
 nav{
-    font-size: .8rem;
+    font-size: .8em;
     display: flex;
     justify-content: flex-end;
     height: 50px;
@@ -24,6 +29,39 @@ nav button {
     color: white;
     border-radius: 5px;
     margin: 10px;
+}
+
+
+header {
+    height: 100px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+header h1 {
+    color: #757579;
+    font-weight: lighter;
+    font-size: 2.5em;
+    margin:5px 0px;
+}
+
+
+header ul {
+    padding: 0px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    padding: 0px 5px;
+    font-size: 1.5em;
+}
+
+.links {
+    text-decoration: none;
+    color: #0077C5
 }
 
 .fa-lock {
@@ -46,10 +84,11 @@ nav button {
     margin-right: 3px;
 }
 
+
 form {
     width: 350px;     
     padding: 10px;
-    margin: -20px auto 10px auto;
+    margin: -20px auto 0px auto;
     background: white;
     text-align: center;
     border-top: 1px solid rgb(182, 181, 181);
@@ -57,38 +96,6 @@ form {
     border-left: 1px solid rgb(182, 181, 181);
 
 }
-header {
-    height: 100px;
-    margin: 25px auto;
-    text-align: center;
-}
-
-header h1 {
-    color: #757579;
-    font-weight: lighter;
-    font-size: 2.5rem;
-    margin:5px;
-}
-
-
-header ul {
-    padding: 0px;
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-header ul li {
-    padding: 0px 5px;
-    font-size: 1.5rem;
-}
-
-.links {
-    text-decoration: none;
-    color: #0077C5
-}
-
 
 .form-links {
     color: #4C4C4C;
@@ -120,7 +127,7 @@ form fieldset input {
     width: 90%;
     margin: 5px auto;
     text-align: left;
-    font-size: .8rem;
+    font-size: .8em;
 }
 
 
@@ -132,13 +139,13 @@ form fieldset input {
     padding: 10px 0px;
     margin: 10px 0px;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 .form-terms {
     padding:10px;
     margin: 10px;
-    font-size: .9rem;
+    font-size: .9em;
     line-height: 20px;
 }
 
@@ -149,9 +156,9 @@ form fieldset input {
     border-left: 1px solid rgb(182, 181, 181);
     padding:15px 10px;
     width: 350px;
-    margin: -10px auto;
+    margin: 0 auto;
     text-align: center;
-    font-size: .6rem;
+    font-size: .6em;
 
 }
 
@@ -161,7 +168,7 @@ form fieldset input {
     width: 600px;
     margin: 0 auto;
     text-align: center;
-    font-size: .8rem;
+    font-size: .8em;
 }
 
 .footer-link-cont {
@@ -183,6 +190,5 @@ form fieldset input {
     right: 70px;
     border: 1px solid rgb(116, 116, 116);
     border-radius: 5px;
-
 }
 
